@@ -16,7 +16,7 @@ Error or Not: The output is not an error.
 
 [insert image here
 
-Absolute Path: /Users/brandonphan
+Absolute Path: /Users/brandonphan/lecture1
 
 Explanation: 
 
@@ -27,4 +27,4 @@ Error or Not: The output is not an error.
 
 [insert image here
 
-Absolute Path: //
+Absolute Path: /Users/brandonphan/lecture1
