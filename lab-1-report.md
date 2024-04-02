@@ -18,7 +18,7 @@ Error or Not: The output is not an error.
 
 Absolute Path: /Users/brandonphan/lecture1
 
-Explanation: 
+Explanation: This 
 
 Error or Not: The output is not an error. 
 
