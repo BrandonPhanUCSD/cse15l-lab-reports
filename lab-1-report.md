@@ -14,7 +14,7 @@ Error or Not: The output is not an error.
 
 ## cd with path to a directory
 
-[insert image here
+![Image](cd-directory-arg.png)
 
 Absolute Path: /Users/brandonphan/lecture1
 
