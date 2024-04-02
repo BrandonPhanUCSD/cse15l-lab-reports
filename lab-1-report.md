@@ -2,7 +2,7 @@ Brandon Phan, Lab 1 Report
 
 ## cd with no arguments
 
-[insert image here
+![Image](cd-no-args.png)
 
 Absolute Path: /Users/brandonphan/lecture1
 
