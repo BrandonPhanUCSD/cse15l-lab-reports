@@ -14,7 +14,7 @@ Error or Not: The output is not an error.
 
 ## cd with path to a directory
 
-![Image](cd-directory-arg-correct.png)
+![Image](cd-directory-arg.png)
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
@@ -25,7 +25,7 @@ Error or Not: The output is not an error.
 
 ## cd with path to a file
 
-![Image](cd-file-arg.png)
+![Image](cd-file-arg-correct.png)
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
