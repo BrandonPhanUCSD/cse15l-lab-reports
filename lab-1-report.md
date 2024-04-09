@@ -32,3 +32,68 @@ Absolute Path: `/Users/brandonphan/lecture1`
 Explanation: I got the "not a directory" error because cd is meant to change what your working directory is, and your working directory can not be a text file. 
 
 Error or Not: This is an error. 
+
+## ls with no arguments
+
+![Image](insert)
+
+Absolute Path: `/Users/brandonphan/lecture1`
+
+Explanation: 
+
+Error or Not:
+
+
+## ls with path to a director
+
+![Image](insert)
+
+Absolute Path: `/Users/brandonphan/lecture1`
+
+Explanation: 
+
+Error or Not: 
+
+
+## ls with path to a file
+
+![Image](insert)
+
+Absolute Path: `/Users/brandonphan/lecture1`
+
+Explanation: 
+
+Error or Not:
+
+
+## cat with no arguments
+
+![Image](insert)
+
+Absolute Path: `/Users/brandonphan/lecture1`
+
+Explanation: 
+
+Error or Not:
+
+
+## cat with path to a directory
+
+![Image](insert)
+
+Absolute Path: `/Users/brandonphan/lecture1`
+
+Explanation: 
+
+Error or Not:
+
+
+## cat with path to a file
+
+![Image](insert)
+
+Absolute Path: `/Users/brandonphan/lecture1`
+
+Explanation: 
+
+Error or Not:
