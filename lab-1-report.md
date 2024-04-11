@@ -35,7 +35,7 @@ Error or Not: This is an error.
 
 ## ls with no arguments
 
-![Image](insert)
+![Image](ls-no-args.png)
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
@@ -46,7 +46,7 @@ Error or Not:
 
 ## ls with path to a director
 
-![Image](insert)
+![Image](ls-directory-arg.png)
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
@@ -57,7 +57,7 @@ Error or Not:
 
 ## ls with path to a file
 
-![Image](insert)
+![Image](ls-file-arg.png)
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
@@ -68,18 +68,17 @@ Error or Not:
 
 ## cat with no arguments
 
-![Image](insert)
+![Image](cat-no-args.png)
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
 Explanation: 
 
-Error or Not:
+Error or Not: This is an error. 
 
 
 ## cat with path to a directory
-
-![Image](insert)
+![Image](cat-directory-arg.png)
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
@@ -90,7 +89,7 @@ Error or Not:
 
 ## cat with path to a file
 
-![Image](insert)
+![Image](cat-file-arg.png)
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
