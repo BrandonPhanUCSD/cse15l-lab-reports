@@ -39,9 +39,9 @@ Error or Not: This is an error.
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
-Explanation: 
+Explanation: I got the contents of the lecture1 directory printed into the terminal since that is our working directory. 
 
-Error or Not:
+Error or Not: This is not an error. 
 
 
 ## ls with path to a director
@@ -50,9 +50,9 @@ Error or Not:
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
-Explanation: 
+Explanation: I got the contents of the messages directory printed into the terminal since that was the directory specified. 
 
-Error or Not: 
+Error or Not: This is not an error. 
 
 
 ## ls with path to a file
@@ -61,9 +61,9 @@ Error or Not:
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
-Explanation: 
+Explanation: I got the path to the file returned to me in the output. 
 
-Error or Not:
+Error or Not: This is an error, as ls prints out the contents of a directory, not a file. 
 
 
 ## cat with no arguments
@@ -72,9 +72,9 @@ Error or Not:
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
-Explanation: 
+Explanation: I am unable to enter any more commands. 
 
-Error or Not: This is an error. 
+Error or Not: This is an error. Cat is supposed to print out the contents of a file, but no file was specified. 
 
 
 ## cat with path to a directory
@@ -82,9 +82,9 @@ Error or Not: This is an error.
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
-Explanation: 
+Explanation: I got an error message that what I specified was a directory, not a file. 
 
-Error or Not:
+Error or Not: This is an error. Cat is supposed to print out the contents of a file, but a directory was specified, not a file.
 
 
 ## cat with path to a file
@@ -93,6 +93,6 @@ Error or Not:
 
 Absolute Path: `/Users/brandonphan/lecture1`
 
-Explanation: 
+Explanation: The command printed out the contents of the en-us.txt file. This is the function of the cat command; it prints out the contents of a file into the terminal. 
 
-Error or Not:
+Error or Not: This is not an error. 
