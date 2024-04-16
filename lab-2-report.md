@@ -67,3 +67,5 @@ Path to Public Key:
 
 No Password login:
 ![image](no-password-login.png)
+
+## Part 3, What Did We Learn?
