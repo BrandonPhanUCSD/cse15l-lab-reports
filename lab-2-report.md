@@ -47,6 +47,9 @@ class ChatServer {
 Screenshots:
 ![image](ChatServer1.png)
 The method called in the `Handler3` class is the `handleRequest` method, and within that method, I call the `contains`, `getQuery`, `getPath`, `splits`, and `equals` methods. In the actual ChatServer class, I call the `Server.start` method and the `parseInt` method. 
+The main relevant argument is the URI url, which in this case is `http://localhost:4035/add-message?s=Knock%20Knock?&user=Knocker`. This is passed into the handleRequest method. The main relevant field is the `log` field, which contains the message log. 
+The log field changed from the **empty string** to `"Knocker: Knock Knock?\n" 
+
 
 
 .
