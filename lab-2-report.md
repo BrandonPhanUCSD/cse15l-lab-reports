@@ -60,7 +60,10 @@ The log field changed from `Knocker: Knock Knock?\n"` to `Knocker: Knock Knock?\
 
 ## Part 2, SSH
 Path to Private Key:
+![image](ls-private-key.png)
 
 Path to Public Key:
+![image](ls-public-key.png)
 
 No Password login:
+![image](no-password-login.png)
