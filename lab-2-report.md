@@ -46,7 +46,8 @@ class ChatServer {
 
 Screenshots:
 ![image](ChatServer1.png)
-The method called in the `Handler3` class is the `handleRequest` method, and within that method, I call the `contains`, `splits`, and `equals` methods. In the actual ChatServer class, I call the `Server.start` method and the parseInt method. 
+The method called in the `Handler3` class is the `handleRequest` method, and within that method, I call the `contains`, `getQuery`, `getPath`, `splits`, and `equals` methods. In the actual ChatServer class, I call the `Server.start` method and the `parseInt` method. 
 
 
+.
 ![image](ChatServer2.png)
