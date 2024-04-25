@@ -69,3 +69,4 @@ No Password login:
 ![image](no-password-login.png)
 
 ## Part 3, What Did We Learn?
+From the labs, I learned how to launch a secure shell to another computer from my computer's terminal. I also learned how to launch a server from my terminal. 
