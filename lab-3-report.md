@@ -3,7 +3,7 @@
 Failure-Inducing Test
 ```
 @Test 
-	public void testMergeFail(){
+public void testMergeFail(){
         List<String> input1 = new ArrayList<>();
         input1.add("a");
         input1.add("b");
@@ -24,13 +24,14 @@ Failure-Inducing Test
         List<String> mergeResult = ListExamples.merge(input1, input2);
 
         assertEquals(expected, mergeResult);
+}
 ```
 
 Succesful Test
 ```
-    @Test 
-	public void testMergePass(){
-        List<String> input1 = new ArrayList<>();
+@Test 
+public void testMergePass(){
+	List<String> input1 = new ArrayList<>();
         input1.add("a");
         input1.add("b");
         input1.add("d");
@@ -46,7 +47,6 @@ Succesful Test
         List<String> mergeResult = ListExamples.merge(input1, input2);
 
         assertEquals(expected, mergeResult);
-	}
 }
 ```
 
