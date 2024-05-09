@@ -116,7 +116,7 @@ The bug with the original code was in the third while loop, which activates when
 
 ## Part 2 - Researching Commands
 
-I am choosing the find command.
+I am choosing the find command. I have `cd`ed into the `./techinical` directory. 
 
 First Option: -find
 
@@ -166,3 +166,5 @@ Output:
 ./911report/chapter-11.txt
 ```
 
+
+Second Option: 
