@@ -166,5 +166,64 @@ Output:
 ./911report/chapter-11.txt
 ```
 
+Second Option: -name 
 
-Second Option: 
+Citation: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/#
+
+Example 1:
+```
+Input:
+find ./ -name "*cat*"
+
+Output:
+.//government/Media/Advocate_for_Poor.txt
+```
+
+Example 2:
+```
+Input:
+find ./ -name "*ow*"
+
+Output:
+.//government/Media/help_rent-to-own_tenants.txt
+.//government/Media/It_Pays_to_Know.txt
+.//government/Media/Low-income_children.txt
+.//government/Media/Towson_Attorney.txt
+.//government/Media/Pro-bono_road_show.txt
+```
+
+Third Option: -mindepth
+
+Citation: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/#
+
+Example 1:
+```
+Input:
+find ./ -mindepth 2 -type d
+
+Output:
+.//government/About_LSC
+.//government/Env_Prot_Agen
+.//government/Alcohol_Problems
+.//government/Gen_Account_Office
+.//government/Post_Rate_Comm
+.//government/Media
+```
+
+Example 2:
+```
+Input:
+find ./ -mindepth 1 -type d  
+
+Output:
+.//government
+.//government/About_LSC
+.//government/Env_Prot_Agen
+.//government/Alcohol_Problems
+.//government/Gen_Account_Office
+.//government/Post_Rate_Comm
+.//government/Media
+.//plos
+.//biomed
+.//911report
+```
