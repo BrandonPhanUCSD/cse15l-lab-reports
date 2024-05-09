@@ -114,4 +114,4 @@ Explanation
 The bug with the original code was in the third while loop, which activates when the second given list isn't cycled through in the first while loop, it was incrementing index1 instead of index2. This led to an infinite loop. The fix is to change it to index2, which fixes the infinite loop. 
 
 
-## Part 1 - Researching Commands
+## Part 2 - Researching Commands
