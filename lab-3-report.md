@@ -115,3 +115,54 @@ The bug with the original code was in the third while loop, which activates when
 
 
 ## Part 2 - Researching Commands
+
+I am choosing the find command.
+
+First Option: -find
+
+Citation: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/#
+
+Example 1:
+```
+Input:
+find ./ -type d
+
+Output:
+./
+.//government
+.//government/About_LSC
+.//government/Env_Prot_Agen
+.//government/Alcohol_Problems
+.//government/Gen_Account_Office
+.//government/Post_Rate_Comm
+.//government/Media
+.//plos
+.//biomed
+.//911report
+```
+
+Example 2: 
+```
+Input:
+find ./911report -type f
+
+Output:
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-13.1.txt
+./911report/chapter-13.2.txt
+./911report/chapter-13.3.txt
+./911report/chapter-3.txt
+./911report/chapter-2.txt
+./911report/chapter-1.txt
+./911report/chapter-5.txt
+./911report/chapter-6.txt
+./911report/chapter-7.txt
+./911report/chapter-9.txt
+./911report/chapter-8.txt
+./911report/preface.txt
+./911report/chapter-12.txt
+./911report/chapter-10.txt
+./911report/chapter-11.txt
+```
+
