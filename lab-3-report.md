@@ -54,6 +54,7 @@ Symptom Screenshot
 ![image](lab-3-symptom.png)
 
 Bugs
+
 Before Code:
 ```
   static List<String> merge(List<String> list1, List<String> list2) {
