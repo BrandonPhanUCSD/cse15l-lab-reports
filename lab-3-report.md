@@ -511,4 +511,55 @@ Output:
 ```
 This command finds all files that are at least 2 deep into the directory `./technical/government`. It is useful if you want to search through a directory but don't results from the top layers of the directory. 
 
+Fourth Option: -size [+/-] n
 
+Source: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/#
+
+Example 1: 
+```
+Input: find ./biomed -size +130
+
+Output:
+./biomed/gb-2003-4-5-r34.txt
+./biomed/gb-2001-2-7-research0025.txt
+./biomed/gb-2002-3-7-research0036.txt
+./biomed/1472-6904-2-5.txt
+./biomed/gb-2002-3-11-research0059.txt
+./biomed/1472-6807-3-1.txt
+./biomed/1471-2105-2-8.txt
+./biomed/gb-2002-3-12-research0086.txt
+./biomed/gb-2002-3-12-research0083.txt
+./biomed/1476-511X-1-2.txt
+./biomed/1471-2105-3-18.txt
+./biomed/1471-2202-3-1.txt
+./biomed/1472-6882-1-10.txt
+./biomed/1471-2105-3-2.txt
+./biomed/1476-069X-2-9.txt
+```
+This command finds all the files in the directory `./technical/biomed` that have more than 130 characters. It is useful if you need to find large files for things like clearing out computer memory. 
+
+Example 2:
+```
+Input:
+find ./ -size -5 -type f
+
+Output:
+.//government/Media/Helping_Hands.txt
+.//government/Media/Campaign_Pays.txt
+.//government/Media/Fire_Victims_Sue.txt
+.//government/Media/Court_Keeps_Judge_From.txt
+.//government/Media/It_Pays_to_Know.txt
+.//government/Media/Self-Help_Website.txt
+.//government/Media/Justice_requests.txt
+.//government/Media/Wilmington_lawyer.txt
+.//government/Media/Lawyer_Web_Survey.txt
+.//plos/pmed.0020048.txt
+.//plos/pmed.0020028.txt
+.//plos/pmed.0020191.txt
+.//plos/pmed.0020226.txt
+.//plos/pmed.0020192.txt
+.//plos/pmed.0020157.txt
+.//plos/pmed.0020082.txt
+.//plos/pmed.0020120.txt
+```
+This command finds all the files in the directory `./technical` that have less than 5 characters. It is useful if you need to find small files for things like finding small junk files. 
