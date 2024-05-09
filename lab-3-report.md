@@ -140,7 +140,8 @@ Output:
 .//biomed
 .//911report
 ```
-This command finds all the directories in the `./techinical` directory. It is useful if you need to find what directories are in another directory quickly in order to go into those directories. 
+This command finds all the directories in the `./techinical` directory. It is useful if you only need directory paths, such as if you are putting the output as an argument into a command that only accepts directory paths.
+
 
 Example 2: 
 ```
