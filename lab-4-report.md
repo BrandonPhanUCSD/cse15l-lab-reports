@@ -15,7 +15,11 @@ Step 4: Log into ieng6
 
 ![image](step-4.png)
 
-Keys Pressed: `ssh b3phan@ieng6.ucsd.edu` `<enter>`. I typed out the command to log into ieng6, which was `ssh b3phan@ieng6.ucsd.edu`. I then clicked enter to run the command.
+Keys Pressed: 
+
+`ssh` `<space>` `b3phan@ieng6.ucsd.edu` `<enter>`. 
+
+I typed out the command to log into ieng6, which was `ssh` `<space>` `b3phan@ieng6.ucsd.edu`. I then clicked enter to run the command.
 
 ---
 
@@ -23,4 +27,28 @@ Step 5: Clone your fork of the repository from your Github account (using the SS
 
 ![image](step-5.png)
 
-Keys Pressed: `clear` `<enter>` `git clone ` `<command>` `v` `<enter>. I used the `clear` command to get a clear screenshot of the next command. I then wrote `git clone ` as that is the command to clone a repository. I the did <command>` + `v` in order to paste the link to the repository, which is `https://github.com/BrandonPhanUCSD/lab7`.
+Keys Pressed: 
+`clear` `<enter>` 
+
+`git` `<space>` `clone` `<space>` 
+
+`<command>` `v` `<enter>.
+
+I used the `clear` command to get a clear screenshot of the next command. I then wrote `git` `<space>` `clone` `<space>` as that is the command to clone a repository. I then did <command>` + `v` in order to paste the link to the repository, which is `https://github.com/BrandonPhanUCSD/lab7` which I had copied from before Step 4.
+
+---
+
+Step 6: Run the tests, demonstrating that they fail
+
+![image](step-6.png)
+
+Keys Pressed: 
+
+`clear` `<enter>` 
+
+`cd` `<space>` `lab7` `<enter>` 
+
+`ls` `<enter>`
+
+`bash` `<space>` `test.sh` `<enter>`
+
