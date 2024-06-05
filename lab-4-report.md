@@ -94,6 +94,15 @@ I used the `clear` command to get a clear screenshot of the next command. I then
 
 Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
 
+![image](step-9.png)
 
+`clear` `<enter>` 
 
+`git` `<space>` `add` `<space>` `.` `<enter>`
+
+`git` `<space>` `commit` `<space>` `-m` `"lab` `<space>` `4` `<space>` `submission"` `<enter>`
+
+`git` `<space>` `push` `<space>` `origin` `<space>` `main` `<enter>`
+
+I used the `clear` command to get a clear screenshot of the next command. I prepared the commit by adding all my changes using the `git` `<space>` `add` `<space>` `.` command. I then made a commit with the message "lab 4 submission" by typing out `git` `<space>` `commit` `<space>` `-m` `"lab` `<space>` `4` `<space>` `submission"`. Finally, I pushed the commit using the command `git` `<space>` `push` `<space>` `origin` `<space>` `main`.
 
