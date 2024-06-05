@@ -116,4 +116,4 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 The command ran to trigger the bug: `bash test.sh`
 
-What to edit to fix the bug: On the last line of the averageWithoutLowest method, you have to make sure to subtract a 1 when you divide the sum of the non-lowest numbers to find the mean in order to account for taking out the lowest number from the average. 
+What to edit to fix the bug: On the last line of the averageWithoutLowest method, you have to make sure to subtract a 1 when you divide the sum of the non-lowest numbers to find the mean in order to account for taking out the lowest number from the average. In other words, change the line `return (sum-lowest) / (arr.length);` to `return (sum-lowest) / (arr.length - 1);`
