@@ -29,6 +29,8 @@ Student: Taking your message into account, I realized that I would get an output
 
 File & Directory Structure: ![image](file+directory_structure.png)
 
+Inside the `/lib` directory there are the `hamcrest-core-1.3.jar` and `junit-4.13.2.jar` files.
+
 Contents of Each File:
 
 ArrayExamples.java:
