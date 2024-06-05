@@ -92,6 +92,8 @@ I used the `clear` command to get a clear screenshot of the next command. I then
 
 ---
 
+Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
+
 
 
 
