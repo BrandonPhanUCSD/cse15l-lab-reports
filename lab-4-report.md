@@ -55,3 +55,24 @@ Keys Pressed:
 
 I used the `clear` command to get a clear screenshot of the next command. I then changed my directory into the `lab7` directory by typing out `cd` `<space>` `lab7`. I then used the 'ls' command in order to find the name of the script I had to run since I forgot the name. I then ran that script by typing `bash` `<space>` `test.sh`, which ran the bash script `test.sh`.
 
+---
+
+Step 7: Edit the code file to fix the failing test
+
+![image](step-7-1.png)
+![image](step-7-2.png)
+
+
+Keys Pressed:
+
+`vim` `<space>` `ListExamples.java` `<enter>`
+
+`40` `j` `j` `j` `12` `l` `h`
+
+`r` `2` 
+
+`<command> `<shift>` `4`
+
+`<shift>` `:` `wq` `<enter>`
+
+In order to edit the code, I used vim to fix ListExamples.java by running the command `vim` `<space>` `ListExamples.java`. I then navigated to the error by using the following commands: `40` `j` `j` `j` `12` `l` `h`. I then replaced index1 with index2 by using vim's replacement command: `r` `2`. I then took a screenshot for this lab by inputting `<command> `<shift>` `4`. Finally, I saved and quit the java file using `<shift>` `:` `wq` `<enter>`.
