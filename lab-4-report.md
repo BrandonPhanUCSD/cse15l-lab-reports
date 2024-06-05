@@ -53,7 +53,7 @@ Keys Pressed:
 
 `bash` `<space>` `test.sh` `<enter>`
 
-I used the `clear` command to get a clear screenshot of the next command. I then changed my directory into the `lab7` directory by typing out `cd` `<space>` `lab7`. I then used the 'ls' command in order to find the name of the script I had to run since I forgot the name. I then ran that script by typing `bash` `<space>` `test.sh`, which ran the bash script `test.sh`.
+I used the `clear` command to get a clear screenshot of the next command. I then changed my directory into the `lab7` directory by typing out `cd` `<space>` `lab7`. I then used the `ls` command in order to find the name of the script I had to run since I forgot the name. I then ran that script by typing `bash` `<space>` `test.sh`, which ran the bash script `test.sh`.
 
 ---
 
