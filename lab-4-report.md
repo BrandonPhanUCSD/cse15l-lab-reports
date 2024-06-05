@@ -17,7 +17,7 @@ Step 4: Log into ieng6
 
 Keys Pressed: 
 
-`ssh` `<space>` `b3phan@ieng6.ucsd.edu` `<enter>`. 
+`ssh` `<space>` `b3phan@ieng6.ucsd.edu` `<enter>`
 
 I typed out the command to log into ieng6, which was `ssh` `<space>` `b3phan@ieng6.ucsd.edu`. I then clicked enter to run the command.
 
@@ -32,7 +32,7 @@ Keys Pressed:
 
 `git` `<space>` `clone` `<space>` 
 
-`<command>` `v` `<enter>.
+`<command>` `v` `<enter>
 
 I used the `clear` command to get a clear screenshot of the next command. I then wrote `git` `<space>` `clone` `<space>` as that is the command to clone a repository. I then did <command>` + `v` in order to paste the link to the repository, which is `https://github.com/BrandonPhanUCSD/lab7` which I had copied from before Step 4.
 
