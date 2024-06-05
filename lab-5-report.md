@@ -1,6 +1,6 @@
 ### Part 1 – Debugging Scenario
 
-1. Piazza Post
+1- Piazza Post
 
 Summary: Test Fail for ChatServer, Need Help.
 
@@ -11,13 +11,13 @@ I've attached a picture of my method below. What am I doing wrong? Is my lowest 
 
 ---
 
-2. Instructor Response:
+2- Instructor Response:
 
 Response: Your test seems to be getting 3 as the output for your test while it expects 4. What possible reasons are there for a mean average to be undercounted? The code to find the lowest number looks good! It is something else that needs to be addressed. 
 
 ---
 
-3. Bug fixing:
+3- Bug fixing:
 
 ![image](fixed-code.png)
 
@@ -25,7 +25,7 @@ Student: Taking your message into account, I realized that I would get an output
 
 ---
 
-4. Necessary Information
+4- Necessary Information
 
 File & Directory Structure: ![image](file+directory_structure.png)
 
