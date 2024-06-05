@@ -35,7 +35,7 @@ Keys Pressed:
 
 `<command>` `v` `<enter>`
 
-I used the `clear` command to get a clear screenshot of the next command. I then wrote `git` `<space>` `clone` `<space>` as that is the command to clone a repository. I then did <command>` + `v` in order to paste the link to the repository, which is `https://github.com/BrandonPhanUCSD/lab7` which I had copied from before Step 4.
+I used the `clear` command to get a clear screenshot of the next command. I then wrote `git` `<space>` `clone` `<space>` as that is the command to clone a repository. I then did `<command>` + `v` in order to paste the link to the repository, which is `https://github.com/BrandonPhanUCSD/lab7` which I had copied from before Step 4.
 
 ---
 
