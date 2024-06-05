@@ -75,4 +75,4 @@ Keys Pressed:
 
 `<shift>` `:` `wq` `<enter>`
 
-In order to edit the code, I used vim to fix ListExamples.java by running the command `vim` `<space>` `ListExamples.java`. I then navigated to the error by using the following commands: `40` `j` `j` `j` `12` `l` `h`. I then replaced index1 with index2 by using vim's replacement command: `r` `2`. I then took a screenshot for this lab by inputting `<command> `<shift>` `4`. Finally, I saved and quit the java file using `<shift>` `:` `wq` `<enter>`.
+In order to edit the code, I used vim to fix ListExamples.java by running the command `vim` `<space>` `ListExamples.java`. I then navigated to the error by using the following commands: `40` `j` `j` `j` `12` `l` `h`. I then replaced index1 with index2 by using vim's replacement command: `r` `2`. I then took a screenshot for this lab by inputting `<command>` `<shift>` `4`. Finally, I saved and quit the java file using `<shift>` `:` `wq`.
