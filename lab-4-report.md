@@ -71,7 +71,7 @@ Keys Pressed:
 
 `r` `2` 
 
-`<command> `<shift>` `4`
+`<command>` `<shift>` `4`
 
 `<shift>` `:` `wq` `<enter>`
 
