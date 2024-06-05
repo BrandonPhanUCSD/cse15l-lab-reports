@@ -28,6 +28,7 @@ Step 5: Clone your fork of the repository from your Github account (using the SS
 ![image](step-5.png)
 
 Keys Pressed: 
+
 `clear` `<enter>` 
 
 `git` `<space>` `clone` `<space>` 
