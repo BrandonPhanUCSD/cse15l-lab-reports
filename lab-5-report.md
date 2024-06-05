@@ -28,7 +28,8 @@ Contents of Each File:
 
 ArrayExamples.java:
 
-```public class ArrayExamples {
+```
+public class ArrayExamples {
 
   // Changes the input array to be in reversed order
   static void reverseInPlace(int[] arr) {
@@ -68,11 +69,13 @@ ArrayExamples.java:
   }
 
 
-}```
+}
+```
 
 ArrayTests.java
 
-```import static org.junit.Assert.*;
+```
+import static org.junit.Assert.*;
 import org.junit.*;
 
 public class ArrayTests {
@@ -95,10 +98,13 @@ public class ArrayTests {
     double[] input1 = { 0.0, 1.0, 2.0, 9.0};
     assertEquals(4.0, ArrayExamples.averageWithoutLowest(input1),0.01);
   }
-}```
+}
+```
 
 test.sh:
 
-```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+```
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests```
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
+```
