@@ -17,7 +17,7 @@ Step 4: Log into ieng6
 
 Keys Pressed: `ssh b3phan@ieng6.ucsd.edu` `<enter>`. I typed out the command to log into ieng6, which was `ssh b3phan@ieng6.ucsd.edu`. I then clicked enter to run the command.
 
-
+---
 
 Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 
