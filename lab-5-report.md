@@ -15,10 +15,15 @@ I've attached a picture of my method below. What am I doing wrong? Is my lowest 
 
 Response: Your test seems to be getting 3 as the output for your test while it expects 4. What possible reasons are there for a mean average to be undercounted? The code to find the lowest number looks good! It is something else that needs to be addressed. 
 
+---
 
+3. Bug fixing:
 
+![image](fixed-code.png)
 
+Student: Taking your message into account, I realized that I would get an output of 3 instead of 4 if I were to divide my average by 4 instead of 3, respectively. Therefore, I realized I had an off-by-one error in the denominator and realized I overcounted what I divided my sum by. 
 
+---
 
 4. Necessary Information
 
@@ -108,3 +113,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
 ```
+
+The command ran to trigger the bug: `bash test.sh`
+
+What to edit to fix the bug: On the last line of the averageWithoutLowest method, you have to make sure to subtract a 1 when you divide the sum of the non-lowest numbers to find the mean in order to account for taking out the lowest number from the average. 
